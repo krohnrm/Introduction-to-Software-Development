@@ -1,0 +1,70 @@
+[
+    {
+        "question": "Sequences are powerful because:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "They let you refer to an entire collection, as well as the items in the collection, using a single name.",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "They let you iterate and facilitate the creation of terminating loops.",
+                "correct": false,
+                "feedback": "Incorrect. Although loops are often used to iterate over sequences, not all loops use sequences."
+            },
+            {
+                "answer": "They are larger than integers.",
+                "correct": false,
+                "feedback": "Incorrect. Sequences can contain multiple integers, but they can be used for other objects also."
+            },
+            {
+                "answer": "They make Python a Turing Complete language.",
+                "correct": false,
+                "feedback": "Incorrect."
+            }
+        ]
+    },
+    {
+        "question": "What is printed when the following code executes?",
+        "code": "sequence = [74, 34, 13, 30, 4004]\nprint(len(sequence))",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": "5",
+                "correct": true,
+                "feedback": "Correct! The list contains 5 elements."
+            },
+            {
+                "type": "default",
+                "correct": false,
+                "feedback": "Incorrect. Try again."
+            }
+        ]
+    },
+    {
+        "question": "What is the final value of num after the following code executes?",
+        "code": "num = 0\nfor k in range(4):\n    num = num + k",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": "6",
+                "correct": true,
+                "feedback": "Correct! The loop sums up the values of k, which range from 0 to 3."
+            },
+            {
+                "type": "default",
+                "correct": false,
+                "feedback": "Incorrect. Try again."
+            },
+            {
+                "type": "value",
+                "value": "10",
+                "correct": false,
+                "feedback": "Incorrect. Remember where range() statements stop."
+            }
+        ]
+    }
+]

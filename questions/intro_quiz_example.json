@@ -1,0 +1,46 @@
+[
+    {
+        "question": "Which programming language does this book use?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Python",
+                "correct": true,
+                "feedback": "Correct"
+            },
+            {
+                "answer": "C++",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Java",
+                "correct": false,
+                "feedback": "Incorrect"
+            },
+            {
+                "answer": "Ruby",
+                "correct": false,
+                "feedback": "Incorrect"
+            }
+        ]
+    },
+    {
+        "question": "How many times does this loop run?",
+        "code": "for i in range(5):\n    print('Iteration:', i)",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": "5",
+                "correct": true,
+                "feedback": "Correct! The loop runs 5 times."
+            },
+            {
+                "type": "default",
+                "correct": false,
+                "feedback": "Incorrect. Try again."
+            }
+        ]
+    }
+]
