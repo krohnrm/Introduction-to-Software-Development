@@ -1,0 +1,17 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-article
+root: intro
+options: 
+  numbered: false
+sections:
+- file: session01_python_intro/intro
+  sections:
+  - file: session01_python_intro/how_120_works
+- file: session10_sequences/intro
+  sections: 
+  - file: session10_sequences/what_are_sequences
+  - file: session10_sequences/indexing
+  - file: session10_sequences/range_expressions
+  - file: session10_sequences/iterating
